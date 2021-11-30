@@ -22,13 +22,13 @@ It is a management tool used for working with Postgres. It simplifies the creati
 
 ### Creating Tables and Basic Queries
 
-´´´sql
+``` sql
     CREATE TABLE prices_table(
         id INT,
         name VARCHAR(30) NOT NULL,
         price INT DEFAULT 0
     );
-´´´
+```
 
 
 
